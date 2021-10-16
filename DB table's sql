@@ -1,0 +1,5 @@
+CREATE TABLE "pagesDB".statistics
+(
+  id serial NOT NULL PRIMARY KEY,
+  url character varying(255),
+  words text);
